@@ -9,5 +9,5 @@ metadata:
     app.tanzu.vmware.com/deliverable-type: edge-relocate
 spec:
   source:
-    image: harbor.workshop.amer.end2end.link/tap/supply-chain/spring-sensors-edge-bundle:69a03a31-1a16-49e4-b9c5-0a8dfa423c65
+    image: harbor.workshop.amer.end2end.link/tap/supply-chain/spring-sensors-edge-bundle:77c61d70-cd5b-4459-9bab-0783971fe35a
 
