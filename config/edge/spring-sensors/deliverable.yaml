@@ -1,0 +1,13 @@
+apiVersion: carto.run/v1alpha1
+kind: Deliverable
+metadata:
+  name: spring-sensors
+  labels:
+    apps.tanzu.vmware.com/workload-type: server
+    se.tanzu.vmware.com/edge: "true"
+    app.kubernetes.io/component: deliverable
+    app.tanzu.vmware.com/deliverable-type: edge-relocate
+spec:
+  source:
+    image: harbor.workshop.amer.end2end.link/tap/supply-chain/spring-sensors-edge-bundle:69a03a31-1a16-49e4-b9c5-0a8dfa423c65
+
